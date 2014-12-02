@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.assetfortest.js",
-  "version":        "0.0.1",
+  "version":        "0.0.2",
   "description":    "Assets for module test.",
   "url":            "https://github.com/uupaa/AssetForTest.js",
   "keywords":       ["Asset", "uupaa", "WebModule", "Unstable"],
