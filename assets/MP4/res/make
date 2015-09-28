@@ -1,0 +1,40 @@
+
+ffmpeg -y -i ts/2.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/2.mp4
+ffmpeg -y -i ts/3.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/3.mp4
+ffmpeg -y -i ts/4.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/4.mp4
+ffmpeg -y -i ts/5.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/5.mp4
+ffmpeg -y -i ts/6.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/6.mp4
+ffmpeg -y -i ts/7.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/7.mp4
+ffmpeg -y -i ts/8.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/8.mp4
+ffmpeg -y -i ts/9.ts -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/9.mp4
+ffmpeg -y -i "concat:ts/2.ts|ts/3.ts|ts/4.ts|ts/5.ts|ts/6.ts|ts/7.ts|ts/8.ts|ts/9.ts" -bsf:a aac_adtstoasc -vcodec copy -acodec copy h264/a.mp4
+
+ffmpeg -y -i ts/2.ts -bsf:a aac_adtstoasc -vcodec copy -an video/2.mp4
+ffmpeg -y -i ts/3.ts -bsf:a aac_adtstoasc -vcodec copy -an video/3.mp4
+ffmpeg -y -i ts/4.ts -bsf:a aac_adtstoasc -vcodec copy -an video/4.mp4
+ffmpeg -y -i ts/5.ts -bsf:a aac_adtstoasc -vcodec copy -an video/5.mp4
+ffmpeg -y -i ts/6.ts -bsf:a aac_adtstoasc -vcodec copy -an video/6.mp4
+ffmpeg -y -i ts/7.ts -bsf:a aac_adtstoasc -vcodec copy -an video/7.mp4
+ffmpeg -y -i ts/8.ts -bsf:a aac_adtstoasc -vcodec copy -an video/8.mp4
+ffmpeg -y -i ts/9.ts -bsf:a aac_adtstoasc -vcodec copy -an video/9.mp4
+ffmpeg -y -i "concat:ts/2.ts|ts/3.ts|ts/4.ts|ts/5.ts|ts/6.ts|ts/7.ts|ts/8.ts|ts/9.ts" -bsf:a aac_adtstoasc -vcodec copy -an video/a.mp4
+
+ffmpeg -y -i ts/2.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/2.m4a
+ffmpeg -y -i ts/3.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/3.m4a
+ffmpeg -y -i ts/4.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/4.m4a
+ffmpeg -y -i ts/5.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/5.m4a
+ffmpeg -y -i ts/6.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/6.m4a
+ffmpeg -y -i ts/7.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/7.m4a
+ffmpeg -y -i ts/8.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/8.m4a
+ffmpeg -y -i ts/9.ts -bsf:a aac_adtstoasc -vn -acodec copy audio/9.m4a
+ffmpeg -y -i "concat:ts/2.ts|ts/3.ts|ts/4.ts|ts/5.ts|ts/6.ts|ts/7.ts|ts/8.ts|ts/9.ts" -bsf:a aac_adtstoasc -vn -acodec copy audio/a.m4a
+
+
+mediainfo ts/2.ts     > ts.info
+mediainfo h264/2.mp4  > h264.info
+mediainfo video/2.mp4 > video.info
+mediainfo audio/2.m4a > audio.info
+
+
+
+

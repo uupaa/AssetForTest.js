@@ -1,0 +1,32 @@
+General
+Complete name                            : audio/2.m4a
+Format                                   : MPEG-4
+Format profile                           : Apple audio with iTunes info
+Codec ID                                 : M4A 
+File size                                : 12.4 KiB
+Duration                                 : 976ms
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 104 Kbps
+Encoded date                             : UTC 1904-01-01 00:00:00
+Tagged date                              : UTC 1904-01-01 00:00:00
+Writing application                      : Lavf56.36.100
+
+Audio
+ID                                       : 1
+Format                                   : AAC
+Format/Info                              : Advanced Audio Codec
+Format profile                           : LC
+Codec ID                                 : 40
+Duration                                 : 976ms
+Bit rate mode                            : Variable
+Bit rate                                 : 96.0 Kbps
+Channel(s)                               : 2 channels
+Channel(s)_Original                      : 1 channel
+Channel positions                        : Front: C
+Sampling rate                            : 44.1 KHz
+Compression mode                         : Lossy
+Stream size                              : 11.4 KiB (92%)
+Encoded date                             : UTC 1904-01-01 00:00:00
+Tagged date                              : UTC 1904-01-01 00:00:00
+
+
